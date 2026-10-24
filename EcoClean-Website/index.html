@@ -1,0 +1,893 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>EcoWash — Natural Organic Detergent</title>
+  <meta name="description" content="EcoWash is a gentle, organic, eco-friendly laundry detergent made from Soapnuts, Orange peels, Lemon peels, Wood ash, Water, and Neem leaves.">
+
+  <!-- Google Fonts: Outfit & Plus Jakarta Sans -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- Main Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Gentle Background Elements (Leaves & Bubbles) -->
+  <div class="ambient-background" aria-hidden="true">
+    <span class="ambient-leaf leaf-1">🍃</span>
+    <span class="ambient-leaf leaf-2">🌿</span>
+    <span class="ambient-leaf leaf-3">🍂</span>
+    <span class="ambient-bubble bubble-1"></span>
+    <span class="ambient-bubble bubble-2"></span>
+    <span class="ambient-bubble bubble-3"></span>
+    <span class="ambient-bubble bubble-4"></span>
+  </div>
+
+  <!-- Site Navigation Header -->
+  <header class="site-header" id="header">
+    <div class="container nav-container">
+      <a href="#home" class="brand-logo" aria-label="EcoWash Home">
+        <div class="brand-icon">
+          <i class="fa-solid fa-leaf"></i>
+        </div>
+        <div class="brand-text">
+          <span class="brand-name">EcoWash</span>
+          <span class="brand-sub">Natural Organic Detergent</span>
+        </div>
+      </a>
+
+      <!-- Desktop Navigation Menu -->
+      <nav class="main-navigation" id="mainNav">
+        <ul class="nav-list">
+          <li><a href="#home" class="nav-link active">Home</a></li>
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#ingredients" class="nav-link">Ingredients</a></li>
+          <li><a href="#how-it-works" class="nav-link">How It's Made</a></li>
+          <li><a href="#comparison" class="nav-link">Why EcoWash</a></li>
+          <li><a href="#pricing" class="nav-link">Sizes & Pricing</a></li>
+          <li><a href="#gallery" class="nav-link">Gallery</a></li>
+          <li><a href="#faq" class="nav-link">FAQ</a></li>
+        </ul>
+      </nav>
+
+      <!-- Mobile Hamburger Button -->
+      <div class="nav-actions">
+        <a href="#pricing" class="btn btn-sm btn-nav-cta"><i class="fa-solid fa-tag"></i> View Pricing</a>
+        <button class="mobile-toggle" id="mobileMenuBtn" aria-label="Toggle navigation menu" aria-expanded="false">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Menu Drawer -->
+  <div class="mobile-menu-overlay" id="mobileMenuOverlay">
+    <div class="mobile-drawer">
+      <div class="drawer-header">
+        <div class="brand-logo">
+          <i class="fa-solid fa-leaf brand-green"></i>
+          <span class="brand-name">EcoWash</span>
+        </div>
+        <button class="drawer-close-btn" id="drawerCloseBtn" aria-label="Close menu">&times;</button>
+      </div>
+      <ul class="mobile-nav-list">
+        <li><a href="#home" class="mobile-nav-link"><i class="fa-solid fa-house"></i> Home</a></li>
+        <li><a href="#about" class="mobile-nav-link"><i class="fa-solid fa-circle-info"></i> About EcoWash</a></li>
+        <li><a href="#ingredients" class="mobile-nav-link"><i class="fa-solid fa-seedling"></i> 6 Natural Ingredients</a></li>
+        <li><a href="#how-it-works" class="mobile-nav-link"><i class="fa-solid fa-wand-magic-sparkles"></i> How It's Made</a></li>
+        <li><a href="#comparison" class="mobile-nav-link"><i class="fa-solid fa-scale-balanced"></i> Why Choose EcoWash</a></li>
+        <li><a href="#pricing" class="mobile-nav-link"><i class="fa-solid fa-tags"></i> Sizes & Pricing</a></li>
+        <li><a href="#gallery" class="mobile-nav-link"><i class="fa-solid fa-images"></i> Photo Gallery</a></li>
+        <li><a href="#faq" class="mobile-nav-link"><i class="fa-solid fa-circle-question"></i> Questions & Answers</a></li>
+      </ul>
+      <div class="drawer-footer">
+        <p class="drawer-note">Natural Organic Detergent &bull; Simple, Pure & Gentle</p>
+      </div>
+    </div>
+  </div>
+
+  <main>
+    <!-- HERO SECTION -->
+    <section class="hero-section" id="home">
+      <div class="container hero-container">
+        <!-- Hero Text Content -->
+        <div class="hero-content">
+          <div class="hero-badge">
+            <span class="badge-dot"></span>
+            <span>100% Pure & Plant-Powered</span>
+          </div>
+
+          <h1 class="hero-title">
+            EcoWash — <span class="gradient-text">The Power of Nature in Every Wash</span>
+          </h1>
+
+          <p class="hero-subtitle">
+            Exploring Natural Ingredients for a More Sustainable Cleaning Solution.
+          </p>
+
+          <p class="hero-description">
+            A simple, handcrafted organic laundry detergent made exclusively with <strong>Soapnuts</strong>, <strong>Orange peels</strong>, <strong>Lemon peels</strong>, <strong>Wood ash</strong>, <strong>Water</strong>, and <strong>Neem leaves</strong>. Gentle on your clothes, kind to your skin, and safe for the planet.
+          </p>
+
+          <div class="hero-cta-group">
+            <a href="#pricing" class="btn btn-primary"><i class="fa-solid fa-tag"></i> Explore Sizes & Pricing</a>
+            <a href="#ingredients" class="btn btn-outline"><i class="fa-solid fa-seedling"></i> Meet Our Ingredients</a>
+          </div>
+
+          <div class="hero-chips">
+            <span class="chip-item"><i class="fa-solid fa-check"></i> Gentle on Sensitive Skin</span>
+            <span class="chip-item"><i class="fa-solid fa-check"></i> Zero Harsh Phosphates</span>
+            <span class="chip-item"><i class="fa-solid fa-check"></i> Affordable & Biodegradable</span>
+          </div>
+        </div>
+
+        <!-- Prominently Positioned Real Product Image -->
+        <div class="hero-image-wrap">
+          <div class="product-image-card">
+            <img src="assets/images/ecowash-product.jpg" 
+                 alt="EcoWash Natural Organic Detergent Bottle with Soapnuts, Citrus Peels, Wood Ash, Water, and Neem Leaves" 
+                 class="hero-product-img" 
+                 loading="eager">
+            <div class="product-caption">
+              <span class="caption-tag"><i class="fa-solid fa-leaf"></i> Handcrafted Formulation</span>
+              <span class="caption-title">EcoWash & Its 6 Natural Ingredients</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT / WHY ECOWASH SECTION -->
+    <section class="about-section" id="about">
+      <div class="container">
+        <div class="section-badge-center">
+          <span class="section-tag"><i class="fa-solid fa-heart"></i> Why EcoWash?</span>
+        </div>
+        <h2 class="section-title text-center">Clean Clothes, Healthy Planet</h2>
+        <p class="section-subtitle text-center">
+          Most commercial detergents are loaded with artificial fragrances, petroleum sulfates, and harsh phosphates that irritate skin and pollute our waterways. EcoWash is our natural answer.
+        </p>
+
+        <div class="about-grid">
+          <div class="about-card">
+            <div class="about-icon"><i class="fa-solid fa-hand-holding-heart"></i></div>
+            <h3 class="about-card-title">Gentle on Your Skin</h3>
+            <p>
+              Free from synthetic sulfates (SLS), chemical dyes, and artificial musks. Naturally hypoallergenic, making it ideal for sensitive skin, baby clothing, and delicate fabrics.
+            </p>
+          </div>
+
+          <div class="about-card">
+            <div class="about-icon"><i class="fa-solid fa-wand-magic-sparkles"></i></div>
+            <h3 class="about-card-title">Naturally Effective Clean</h3>
+            <p>
+              Soapnuts provide rich natural foaming saponins, while real orange and lemon peels provide citrus degreasers and citric brightness that lift dirt without toxic bleaches.
+            </p>
+          </div>
+
+          <div class="about-card">
+            <div class="about-icon"><i class="fa-solid fa-earth-americas"></i></div>
+            <h3 class="about-card-title">Kind to Mother Nature</h3>
+            <p>
+              Contains zero phosphates, meaning no toxic algae blooms in lakes and rivers. The rinse water is completely biodegradable and safe for watering home gardens.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- THE 6 NATURAL INGREDIENTS SECTION -->
+    <section class="ingredients-section" id="ingredients">
+      <div class="container">
+        <div class="section-badge-center">
+          <span class="section-tag"><i class="fa-solid fa-seedling"></i> Nature's Recipe</span>
+        </div>
+        <h2 class="section-title text-center">The 6 Natural Ingredients</h2>
+        <p class="section-subtitle text-center">
+          Every ingredient in EcoWash is sourced directly from nature, each serving a specific, beneficial purpose in every wash.
+        </p>
+
+        <div class="ingredients-grid">
+
+          <!-- INGREDIENT 1: SOAPNUTS (REETHA) -->
+          <article class="ingredient-card">
+            <div class="card-visual">
+              <img src="assets/images/soapnuts.jpg" alt="Soapnuts Reetha in a wooden bowl" class="ing-img">
+              <span class="badge-role badge-green"><i class="fa-solid fa-bubbles"></i> Natural Cleanser & Lather</span>
+            </div>
+            <div class="card-body">
+              <div class="card-head">
+                <h3 class="ing-name">Soapnuts (Reetha)</h3>
+                <span class="sci-name">Sapindus mukorossi</span>
+              </div>
+              <p class="ing-desc">
+                Soapnuts have been used in Indian households for centuries. Their outer shells contain <strong>saponins</strong> — a natural surfactant that creates a gentle foam in water, lifting dirt and oils from fabrics naturally.
+              </p>
+              <div class="ing-perk">
+                <i class="fa-solid fa-check text-green"></i> <span>Naturally hypoallergenic, gentle on cotton, wool, and silk.</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- INGREDIENT 2: ORANGE PEELS -->
+          <article class="ingredient-card">
+            <div class="card-visual">
+              <img src="assets/images/orange-peels.jpg" alt="Fresh orange peels" class="ing-img">
+              <span class="badge-role badge-orange"><i class="fa-solid fa-bolt"></i> Grease Cutter & Fresh Aroma</span>
+            </div>
+            <div class="card-body">
+              <div class="card-head">
+                <h3 class="ing-name">Orange Peels</h3>
+                <span class="sci-name">Citrus sinensis</span>
+              </div>
+              <p class="ing-desc">
+                Orange rinds are rich in <strong>D-limonene</strong>, a natural citrus solvent that breaks down stubborn oil, food stains, and grease while leaving clothes with a light, fresh, natural citrus aroma.
+              </p>
+              <div class="ing-perk">
+                <i class="fa-solid fa-check text-green"></i> <span>Repurposes food waste, replaces artificial chemical perfumes.</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- INGREDIENT 3: LEMON PEELS -->
+          <article class="ingredient-card">
+            <div class="card-visual">
+              <img src="assets/images/lemon-peels.jpg" alt="Fresh yellow lemon peels" class="ing-img">
+              <span class="badge-role badge-yellow"><i class="fa-solid fa-sun"></i> Stain Brightener & Softener</span>
+            </div>
+            <div class="card-body">
+              <div class="card-head">
+                <h3 class="ing-name">Lemon Peels</h3>
+                <span class="sci-name">Citrus limon</span>
+              </div>
+              <p class="ing-desc">
+                Packed with natural <strong>citric acid</strong>, lemon peel extract helps soften hard water, dissolves mineral films on clothing, brightens whites naturally, and keeps fabrics soft without chemical softeners.
+              </p>
+              <div class="ing-perk">
+                <i class="fa-solid fa-check text-green"></i> <span>Naturally neutralizes odors and keeps clothes bright and soft.</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- INGREDIENT 4: WOOD ASH -->
+          <article class="ingredient-card">
+            <div class="card-visual">
+              <img src="assets/images/wood-ash.jpg" alt="Filtered clean wood ash in a bowl" class="ing-img">
+              <span class="badge-role badge-dark"><i class="fa-solid fa-fire"></i> Traditional Mineral Builder</span>
+            </div>
+            <div class="card-body">
+              <div class="card-head">
+                <h3 class="ing-name">Wood Ash</h3>
+                <span class="sci-name">Natural Hardwood Ash Extract (K₂CO₃)</span>
+              </div>
+              <p class="ing-desc">
+                Clean hardwood ash is rich in soluble <strong>potassium carbonate</strong>. When filtered with water, it creates a mild traditional alkaline lye that helps dissolve stubborn dirt and release deep grime from cotton fibers.
+              </p>
+              <div class="ing-perk">
+                <i class="fa-solid fa-check text-green"></i> <span>Balanced with citrus acid for a gentle, skin-safe pH level.</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- INGREDIENT 5: PURE WATER -->
+          <article class="ingredient-card">
+            <div class="card-visual">
+              <img src="assets/images/water.jpg" alt="Pure clean water in a glass pitcher" class="ing-img">
+              <span class="badge-role badge-blue"><i class="fa-solid fa-water"></i> Pure Extraction Base</span>
+            </div>
+            <div class="card-body">
+              <div class="card-head">
+                <h3 class="ing-name">Pure Water</h3>
+                <span class="sci-name">H₂O</span>
+              </div>
+              <p class="ing-desc">
+                Pure, clean water serves as the gentle extraction medium that draws out the cleansing saponins from soapnuts, essential oils from citrus peels, and soothing herbal actives into a smooth, liquid detergent.
+              </p>
+              <div class="ing-perk">
+                <i class="fa-solid fa-check text-green"></i> <span>100% non-toxic, clean, and refreshing universal liquid carrier.</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- INGREDIENT 6: NEEM LEAVES -->
+          <article class="ingredient-card">
+            <div class="card-visual">
+              <img src="assets/images/neem-leaves.jpg" alt="Fresh green neem leaves" class="ing-img">
+              <span class="badge-role badge-mint"><i class="fa-solid fa-shield-virus"></i> Nature's Herbal Protection</span>
+            </div>
+            <div class="card-body">
+              <div class="card-head">
+                <h3 class="ing-name">Neem Leaves</h3>
+                <span class="sci-name">Azadirachta indica</span>
+              </div>
+              <p class="ing-desc">
+                Neem is famous for its natural protective and purifying qualities. In EcoWash, fresh neem leaves help keep the organic formulation fresh, prevent spoilage, and add natural hygienic freshness to laundry.
+              </p>
+              <div class="ing-perk">
+                <i class="fa-solid fa-check text-green"></i> <span>Replaces synthetic chemical parabens and harsh preservatives.</span>
+              </div>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- HOW IT'S MADE SECTION (SIMPLE 4-STEP JOURNEY) -->
+    <section class="how-section" id="how-it-works">
+      <div class="container">
+        <div class="section-badge-center">
+          <span class="section-tag"><i class="fa-solid fa-wand-magic-sparkles"></i> The Process</span>
+        </div>
+        <h2 class="section-title text-center">How EcoWash is Handcrafted</h2>
+        <p class="section-subtitle text-center">
+          A simple, clean four-step workflow using traditional botanical extraction and careful filtration.
+        </p>
+
+        <div class="steps-grid">
+          <div class="step-box">
+            <div class="step-number">1</div>
+            <div class="step-icon-wrap"><i class="fa-solid fa-hand-sparkles"></i></div>
+            <h3 class="step-box-title">Handpick & Prepare</h3>
+            <p>Soapnuts are deseeded, fresh orange and lemon peels are sliced thin, and neem leaves are washed with clean water.</p>
+          </div>
+
+          <div class="step-box">
+            <div class="step-number">2</div>
+            <div class="step-icon-wrap"><i class="fa-solid fa-mug-hot"></i></div>
+            <h3 class="step-box-title">Gentle Simmer</h3>
+            <p>Ingredients are gently simmered in warm water to extract the natural foaming saponins and aromatic citrus oils.</p>
+          </div>
+
+          <div class="step-box">
+            <div class="step-number">3</div>
+            <div class="step-icon-wrap"><i class="fa-solid fa-scale-balanced"></i></div>
+            <h3 class="step-box-title">Balance & Neutralize</h3>
+            <p>Filtered wood ash extract is carefully combined and balanced with lemon citrus for a balanced, skin-friendly liquid.</p>
+          </div>
+
+          <div class="step-box">
+            <div class="step-number">4</div>
+            <div class="step-icon-wrap"><i class="fa-solid fa-bottle-droplet"></i></div>
+            <h3 class="step-box-title">Filter & Bottle</h3>
+            <p>The liquid is strained through fine cloth into clean glass bottles, ready to give your laundry a gentle, natural clean.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- COMPARISON: ECOWASH VS COMMERCIAL DETERGENTS -->
+    <section class="comparison-section" id="comparison">
+      <div class="container">
+        <div class="section-badge-center">
+          <span class="section-tag"><i class="fa-solid fa-scale-balanced"></i> Comparison</span>
+        </div>
+        <h2 class="section-title text-center">Why Choose EcoWash?</h2>
+        <p class="section-subtitle text-center">
+          See how our natural, organic formula compares against standard store-bought commercial detergents.
+        </p>
+
+        <div class="compare-cards-grid">
+          <!-- EcoWash Column -->
+          <div class="compare-card eco-card">
+            <div class="compare-card-header">
+              <span class="compare-badge"><i class="fa-solid fa-leaf"></i> EcoWash</span>
+              <h3 class="compare-title">Pure & Natural Formula</h3>
+            </div>
+            <ul class="compare-list">
+              <li><i class="fa-solid fa-circle-check text-green"></i> <strong>Surfactant:</strong> 100% natural saponins from soapnuts</li>
+              <li><i class="fa-solid fa-circle-check text-green"></i> <strong>Scent:</strong> Fresh real orange and lemon peels</li>
+              <li><i class="fa-solid fa-circle-check text-green"></i> <strong>Water Softening:</strong> Natural citric acid from lemon</li>
+              <li><i class="fa-solid fa-circle-check text-green"></i> <strong>Skin Compatibility:</strong> Gentle, mild, and hypoallergenic</li>
+              <li><i class="fa-solid fa-circle-check text-green"></i> <strong>Waterways:</strong> 100% biodegradable, zero phosphates</li>
+              <li><i class="fa-solid fa-circle-check text-green"></i> <strong>Rinsing:</strong> Quick rinse, saves clean water</li>
+            </ul>
+          </div>
+
+          <!-- Commercial Column -->
+          <div class="compare-card commercial-card">
+            <div class="compare-card-header">
+              <span class="compare-badge badge-comm"><i class="fa-solid fa-industry"></i> Commercial Brands</span>
+              <h3 class="compare-title">Synthetic Detergents</h3>
+            </div>
+            <ul class="compare-list">
+              <li><i class="fa-solid fa-circle-xmark text-orange"></i> <strong>Surfactant:</strong> Petroleum-based SLS, SLES & LAS</li>
+              <li><i class="fa-solid fa-circle-xmark text-orange"></i> <strong>Scent:</strong> Synthetic perfumes & chemical phthalates</li>
+              <li><i class="fa-solid fa-circle-xmark text-orange"></i> <strong>Water Softening:</strong> Chemical phosphates (causes water pollution)</li>
+              <li><i class="fa-solid fa-circle-xmark text-orange"></i> <strong>Skin Compatibility:</strong> Can cause dryness, itching & allergies</li>
+              <li><i class="fa-solid fa-circle-xmark text-orange"></i> <strong>Waterways:</strong> Persists in rivers and harms aquatic life</li>
+              <li><i class="fa-solid fa-circle-xmark text-orange"></i> <strong>Rinsing:</strong> Requires heavy rinsing to remove residues</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PRODUCT SIZES & PRICING SECTION -->
+    <section class="pricing-section" id="pricing">
+      <div class="container">
+        <div class="section-badge-center">
+          <span class="section-tag"><i class="fa-solid fa-tags"></i> Fair & Natural Pricing</span>
+        </div>
+        <h2 class="section-title text-center">Choose Your EcoWash Quantity</h2>
+        <p class="section-subtitle text-center">
+          Handcrafted in small batches with fair, accessible pricing for every household. No hidden chemicals, just pure nature.
+        </p>
+
+        <div class="pricing-grid">
+
+          <!-- SIZE 1: TRIAL PACK (250 mL) -->
+          <div class="pricing-card" data-size="250">
+            <div class="pricing-card-header">
+              <span class="pack-badge">Trial Size</span>
+              <h3 class="pack-title">EcoWash Mini</h3>
+              <p class="pack-desc">Ideal for first-time trial, delicates & handwash.</p>
+              <div class="price-display">
+                <span class="currency">₹</span>
+                <span class="amount">99</span>
+                <span class="volume">/ 250 mL</span>
+              </div>
+              <span class="wash-cost">~₹12 per wash load</span>
+            </div>
+
+            <div class="pricing-specs">
+              <div class="spec-row">
+                <i class="fa-solid fa-droplet text-green"></i>
+                <span><strong>Quantity:</strong> 250 mL liquid</span>
+              </div>
+              <div class="spec-row">
+                <i class="fa-solid fa-shirt text-green"></i>
+                <span><strong>Washes:</strong> 8 to 10 loads</span>
+              </div>
+              <div class="spec-row">
+                <i class="fa-solid fa-flask text-green"></i>
+                <span><strong>Packaging:</strong> Reusable glass bottle</span>
+              </div>
+            </div>
+
+            <ul class="pricing-perks">
+              <li><i class="fa-solid fa-check text-green"></i> 100% natural Reetha & Citrus formula</li>
+              <li><i class="fa-solid fa-check text-green"></i> Gentle on wool, silk & baby wear</li>
+              <li><i class="fa-solid fa-check text-green"></i> Convenient travel & trial size</li>
+            </ul>
+
+            <button type="button" class="btn btn-outline select-plan-btn" data-plan="250 mL Trial Pack (₹99)">
+              Select 250 mL
+            </button>
+          </div>
+
+          <!-- SIZE 2: STANDARD PACK (500 mL) - FEATURED / MOST POPULAR -->
+          <div class="pricing-card featured-pricing-card" data-size="500">
+            <div class="popular-ribbon"><i class="fa-solid fa-star"></i> Most Popular</div>
+            <div class="pricing-card-header">
+              <span class="pack-badge badge-popular">Standard Bottle</span>
+              <h3 class="pack-title">EcoWash Classic</h3>
+              <p class="pack-desc">Perfect for small households & regular laundry.</p>
+              <div class="price-display">
+                <span class="currency">₹</span>
+                <span class="amount">189</span>
+                <span class="volume">/ 500 mL</span>
+              </div>
+              <span class="wash-cost">~₹10.5 per wash load &bull; <strong class="text-orange">Save 15%</strong></span>
+            </div>
+
+            <div class="pricing-specs">
+              <div class="spec-row">
+                <i class="fa-solid fa-droplet text-green"></i>
+                <span><strong>Quantity:</strong> 500 mL liquid</span>
+              </div>
+              <div class="spec-row">
+                <i class="fa-solid fa-shirt text-green"></i>
+                <span><strong>Washes:</strong> 18 to 20 loads</span>
+              </div>
+              <div class="spec-row">
+                <i class="fa-solid fa-flask text-green"></i>
+                <span><strong>Packaging:</strong> Amber glass bottle with dispenser</span>
+              </div>
+            </div>
+
+            <ul class="pricing-perks">
+              <li><i class="fa-solid fa-check text-green"></i> Full 6-ingredient balanced formulation</li>
+              <li><i class="fa-solid fa-check text-green"></i> Compatible with all washing machines & buckets</li>
+              <li><i class="fa-solid fa-check text-green"></i> Free 30 mL wooden measuring cup</li>
+            </ul>
+
+            <button type="button" class="btn btn-primary select-plan-btn" data-plan="500 mL Standard Bottle (₹189)">
+              Select 500 mL
+            </button>
+          </div>
+
+          <!-- SIZE 3: FAMILY VALUE PACK (1000 mL / 1 Litre) -->
+          <div class="pricing-card" data-size="1000">
+            <div class="pricing-card-header">
+              <span class="pack-badge badge-value">Family Value Pack</span>
+              <h3 class="pack-title">EcoWash Family</h3>
+              <p class="pack-desc">Best value for families & maximum monthly savings.</p>
+              <div class="price-display">
+                <span class="currency">₹</span>
+                <span class="amount">349</span>
+                <span class="volume">/ 1 Litre</span>
+              </div>
+              <span class="wash-cost">~₹9.2 per wash load &bull; <strong class="text-green">Best Value (Save 25%)</strong></span>
+            </div>
+
+            <div class="pricing-specs">
+              <div class="spec-row">
+                <i class="fa-solid fa-droplet text-green"></i>
+                <span><strong>Quantity:</strong> 1000 mL (1 Litre)</span>
+              </div>
+              <div class="spec-row">
+                <i class="fa-solid fa-shirt text-green"></i>
+                <span><strong>Washes:</strong> 38 to 42 loads</span>
+              </div>
+              <div class="spec-row">
+                <i class="fa-solid fa-flask text-green"></i>
+                <span><strong>Packaging:</strong> Big refill jar / Eco-canister</span>
+              </div>
+            </div>
+
+            <ul class="pricing-perks">
+              <li><i class="fa-solid fa-check text-green"></i> Lowest cost per wash of any green detergent</li>
+              <li><i class="fa-solid fa-check text-green"></i> Zero-waste container exchange discount (₹30 off)</li>
+              <li><i class="fa-solid fa-check text-green"></i> Lasts over a month for an entire family</li>
+            </ul>
+
+            <button type="button" class="btn btn-outline select-plan-btn" data-plan="1 Litre Family Pack (₹349)">
+              Select 1 Litre
+            </button>
+          </div>
+
+        </div>
+
+        <!-- Quick Size & Dosage Summary Strip -->
+        <div class="pricing-dosage-note">
+          <div class="dosage-item">
+            <i class="fa-solid fa-jug-detergent text-green"></i>
+            <div>
+              <strong>Recommended Usage:</strong>
+              <span>Use approx. 25–30 mL for a full 6–7 kg washing machine load, or 15–20 mL for a hand-wash bucket.</span>
+            </div>
+          </div>
+          <div class="dosage-item">
+            <i class="fa-solid fa-recycle text-green"></i>
+            <div>
+              <strong>Bottle Return Initiative:</strong>
+              <span>Return your empty glass bottle for cleaning and receive a ₹20 green credit on your next batch.</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PHOTO GALLERY SECTION (ALL REAL, CRISP PHOTOS!) -->
+    <section class="gallery-section" id="gallery">
+      <div class="container">
+        <div class="section-badge-center">
+          <span class="section-tag"><i class="fa-solid fa-camera"></i> Photo Showcase</span>
+        </div>
+        <h2 class="section-title text-center">Project Photo Gallery</h2>
+        <p class="section-subtitle text-center">
+          Take a closer look at our handcrafted EcoWash detergent bottle and the genuine natural ingredients used in every batch.
+        </p>
+
+        <div class="gallery-grid">
+          <!-- Photo 1: Master Bottle and All Ingredients -->
+          <div class="gallery-card">
+            <div class="gallery-img-wrap">
+              <img src="assets/images/ecowash-product.jpg" alt="EcoWash bottle surrounded by natural ingredients" class="gallery-img">
+              <div class="gallery-overlay">
+                <span class="overlay-btn"><i class="fa-solid fa-magnifying-glass-plus"></i> View Full Photo</span>
+              </div>
+            </div>
+            <div class="gallery-caption">
+              <h4 class="caption-title">EcoWash & The 6 Ingredients</h4>
+              <p class="caption-desc">The complete natural detergent bottle surrounded by nature's finest ingredients.</p>
+            </div>
+          </div>
+
+          <!-- Photo 2: Detergent Bottle Close-up -->
+          <div class="gallery-card">
+            <div class="gallery-img-wrap">
+              <img src="assets/images/detergent-bottle.jpg" alt="EcoWash natural detergent bottle" class="gallery-img">
+              <div class="gallery-overlay">
+                <span class="overlay-btn"><i class="fa-solid fa-magnifying-glass-plus"></i> View Full Photo</span>
+              </div>
+            </div>
+            <div class="gallery-caption">
+              <h4 class="caption-title">Handcrafted Detergent Bottle</h4>
+              <p class="caption-desc">Golden amber liquid detergent bottled in clean glass packaging.</p>
+            </div>
+          </div>
+
+          <!-- Photo 3: Soapnuts -->
+          <div class="gallery-card">
+            <div class="gallery-img-wrap">
+              <img src="assets/images/soapnuts.jpg" alt="Soapnuts Reetha in wooden bowl" class="gallery-img">
+              <div class="gallery-overlay">
+                <span class="overlay-btn"><i class="fa-solid fa-magnifying-glass-plus"></i> View Full Photo</span>
+              </div>
+            </div>
+            <div class="gallery-caption">
+              <h4 class="caption-title">Soapnuts (Reetha)</h4>
+              <p class="caption-desc">Naturally rich in saponins for a gentle, foamy cleanse.</p>
+            </div>
+          </div>
+
+          <!-- Photo 4: Orange Peels -->
+          <div class="gallery-card">
+            <div class="gallery-img-wrap">
+              <img src="assets/images/orange-peels.jpg" alt="Fresh orange peels" class="gallery-img">
+              <div class="gallery-overlay">
+                <span class="overlay-btn"><i class="fa-solid fa-magnifying-glass-plus"></i> View Full Photo</span>
+              </div>
+            </div>
+            <div class="gallery-caption">
+              <h4 class="caption-title">Fresh Orange Peels</h4>
+              <p class="caption-desc">Infused with natural citrus oils to cut through grease.</p>
+            </div>
+          </div>
+
+          <!-- Photo 5: Lemon Peels -->
+          <div class="gallery-card">
+            <div class="gallery-img-wrap">
+              <img src="assets/images/lemon-peels.jpg" alt="Lemon peels" class="gallery-img">
+              <div class="gallery-overlay">
+                <span class="overlay-btn"><i class="fa-solid fa-magnifying-glass-plus"></i> View Full Photo</span>
+              </div>
+            </div>
+            <div class="gallery-caption">
+              <h4 class="caption-title">Lemon Peels</h4>
+              <p class="caption-desc">Supplying natural citric acid to soften water and brighten fabrics.</p>
+            </div>
+          </div>
+
+          <!-- Photo 6: Wood Ash -->
+          <div class="gallery-card">
+            <div class="gallery-img-wrap">
+              <img src="assets/images/wood-ash.jpg" alt="Filtered clean wood ash in wooden dish" class="gallery-img">
+              <div class="gallery-overlay">
+                <span class="overlay-btn"><i class="fa-solid fa-magnifying-glass-plus"></i> View Full Photo</span>
+              </div>
+            </div>
+            <div class="gallery-caption">
+              <h4 class="caption-title">Sieved Wood Ash</h4>
+              <p class="caption-desc">Traditional potassium mineral builder for deep stain lifting.</p>
+            </div>
+          </div>
+
+          <!-- Photo 7: Pure Water -->
+          <div class="gallery-card">
+            <div class="gallery-img-wrap">
+              <img src="assets/images/water.jpg" alt="Water in glass pitcher" class="gallery-img">
+              <div class="gallery-overlay">
+                <span class="overlay-btn"><i class="fa-solid fa-magnifying-glass-plus"></i> View Full Photo</span>
+              </div>
+            </div>
+            <div class="gallery-caption">
+              <h4 class="caption-title">Pure Clean Water</h4>
+              <p class="caption-desc">The gentle natural liquid carrier uniting all ingredients.</p>
+            </div>
+          </div>
+
+          <!-- Photo 8: Neem Leaves -->
+          <div class="gallery-card">
+            <div class="gallery-img-wrap">
+              <img src="assets/images/neem-leaves.jpg" alt="Fresh green neem leaves" class="gallery-img">
+              <div class="gallery-overlay">
+                <span class="overlay-btn"><i class="fa-solid fa-magnifying-glass-plus"></i> View Full Photo</span>
+              </div>
+            </div>
+            <div class="gallery-caption">
+              <h4 class="caption-title">Fresh Neem Leaves</h4>
+              <p class="caption-desc">Providing natural botanical freshness and herbal protection.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FREQUENTLY ASKED QUESTIONS SECTION -->
+    <section class="faq-section" id="faq">
+      <div class="container faq-container">
+        <div class="section-badge-center">
+          <span class="section-tag"><i class="fa-solid fa-circle-question"></i> Got Questions?</span>
+        </div>
+        <h2 class="section-title text-center">Frequently Asked Questions</h2>
+        <p class="section-subtitle text-center">
+          Simple and straightforward answers about using our natural organic detergent.
+        </p>
+
+        <div class="accordion" id="faqAccordion">
+
+          <!-- FAQ Item 1 -->
+          <div class="accordion-item">
+            <button class="accordion-trigger" aria-expanded="false">
+              <span class="faq-q">Does EcoWash clean as well as commercial detergent?</span>
+              <span class="accordion-icon"><i class="fa-solid fa-chevron-down"></i></span>
+            </button>
+            <div class="accordion-panel">
+              <div class="panel-content">
+                <p>
+                  Yes! Natural saponins from Soapnuts are natural surfactants that break surface tension and encapsulate dirt. Combined with citrus oils that dissolve grease and wood ash that lifts grime, it effectively washes everyday clothes, cottons, and linens without synthetic chemicals.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- FAQ Item 2 -->
+          <div class="accordion-item">
+            <button class="accordion-trigger" aria-expanded="false">
+              <span class="faq-q">Why does it produce less foam than store-bought detergents?</span>
+              <span class="accordion-icon"><i class="fa-solid fa-chevron-down"></i></span>
+            </button>
+            <div class="accordion-panel">
+              <div class="panel-content">
+                <p>
+                  Commercial detergents add artificial chemical foaming boosters (like SLS) to create excessive foam because consumers expect it. But foam does not equal cleaning power! EcoWash creates a light, gentle lather that cleans thoroughly and rinses away quickly, saving lots of water.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- FAQ Item 3 -->
+          <div class="accordion-item">
+            <button class="accordion-trigger" aria-expanded="false">
+              <span class="faq-q">Can it be used in washing machines?</span>
+              <span class="accordion-icon"><i class="fa-solid fa-chevron-down"></i></span>
+            </button>
+            <div class="accordion-panel">
+              <div class="panel-content">
+                <p>
+                  Absolutely. Because EcoWash is low-foaming, it is actually ideal for modern front-load and top-load washing machines, preventing excess suds from clogging sensors or leaving residue inside the drum.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- FAQ Item 4 -->
+          <div class="accordion-item">
+            <button class="accordion-trigger" aria-expanded="false">
+              <span class="faq-q">Is it safe for baby clothes and sensitive skin?</span>
+              <span class="accordion-icon"><i class="fa-solid fa-chevron-down"></i></span>
+            </button>
+            <div class="accordion-panel">
+              <div class="panel-content">
+                <p>
+                  Yes! EcoWash is completely free of synthetic perfumes, fluorescent whitening dyes, optical bleaches, and harsh sulfates. It is naturally mild, making it very gentle for babies and individuals with sensitive skin or allergies.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- FAQ Item 5 -->
+          <div class="accordion-item">
+            <button class="accordion-trigger" aria-expanded="false">
+              <span class="faq-q">How long does a bottle of EcoWash stay fresh?</span>
+              <span class="accordion-icon"><i class="fa-solid fa-chevron-down"></i></span>
+            </button>
+            <div class="accordion-panel">
+              <div class="panel-content">
+                <p>
+                  Because we use fresh botanical ingredients and natural neem preservation instead of artificial parabens, a fresh bottle stays best for around 2 to 3 weeks at room temperature, or even longer when kept in a cool, shaded place or refrigerator.
+                </p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- LIGHTBOX MODAL FOR GALLERY IMAGES -->
+  <div class="lightbox-modal" id="lightboxModal" aria-hidden="true" role="dialog">
+    <div class="lightbox-backdrop" id="lightboxBackdrop"></div>
+    <div class="lightbox-content">
+      <button class="lightbox-close" id="lightboxClose" aria-label="Close image">&times;</button>
+      <img src="" alt="Enlarged photo view" id="lightboxImg" class="lightbox-image">
+      <div class="lightbox-caption" id="lightboxCaption"></div>
+    </div>
+  </div>
+
+  <!-- SWEET ORDER / INQUIRY MODAL -->
+  <div class="order-modal" id="orderModal" aria-hidden="true" role="dialog">
+    <div class="order-backdrop" id="orderBackdrop"></div>
+    <div class="order-modal-content">
+      <button class="order-close-btn" id="orderCloseBtn" aria-label="Close dialog">&times;</button>
+      <div class="order-modal-header">
+        <div class="order-icon"><i class="fa-solid fa-jug-detergent"></i></div>
+        <h3>Select Quantity</h3>
+        <p id="selectedPlanLabel">You selected: <strong>500 mL Classic</strong></p>
+      </div>
+      <div class="order-modal-body">
+        <p class="order-summary-text">
+          EcoWash is handcrafted in fresh batches. Each bottle comes freshly prepared with pure botanical extracts and zero artificial preservatives.
+        </p>
+        <div class="order-specs-box">
+          <div class="order-spec-line">
+            <span>Selected Size:</span>
+            <strong id="modalSizeText">500 mL</strong>
+          </div>
+          <div class="order-spec-line">
+            <span>Price:</span>
+            <strong class="text-green" id="modalPriceText">₹189</strong>
+          </div>
+          <div class="order-spec-line">
+            <span>Wash Capacity:</span>
+            <span id="modalWashText">Approx. 18–20 machine loads</span>
+          </div>
+        </div>
+        <p class="order-note-text">
+          🌿 Thank you for choosing nature! For prototype samples or customized batch orders, please contact our community initiative.
+        </p>
+        <button type="button" class="btn btn-primary btn-block" id="confirmOrderBtn">Got it, thanks!</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- SITE FOOTER -->
+  <footer class="site-footer">
+    <div class="container footer-container">
+      <div class="footer-brand">
+        <div class="brand-logo footer-logo">
+          <i class="fa-solid fa-leaf brand-green"></i>
+          <span class="brand-name">EcoWash</span>
+        </div>
+        <p class="footer-desc">
+          A gentle, natural organic detergent handcrafted from Soapnuts, Citrus peels, Wood ash, Water, and Neem leaves.
+        </p>
+        <span class="footer-motto">🌿 Made with love for a cleaner, greener tomorrow.</span>
+      </div>
+
+      <div class="footer-nav">
+        <h4 class="footer-heading">Quick Links</h4>
+        <ul class="footer-links">
+          <li><a href="#home"><i class="fa-solid fa-chevron-right"></i> Home</a></li>
+          <li><a href="#about"><i class="fa-solid fa-chevron-right"></i> About EcoWash</a></li>
+          <li><a href="#ingredients"><i class="fa-solid fa-chevron-right"></i> 6 Natural Ingredients</a></li>
+          <li><a href="#how-it-works"><i class="fa-solid fa-chevron-right"></i> How It's Made</a></li>
+          <li><a href="#comparison"><i class="fa-solid fa-chevron-right"></i> Why EcoWash</a></li>
+          <li><a href="#pricing"><i class="fa-solid fa-chevron-right"></i> Sizes & Pricing</a></li>
+          <li><a href="#gallery"><i class="fa-solid fa-chevron-right"></i> Photo Gallery</a></li>
+          <li><a href="#faq"><i class="fa-solid fa-chevron-right"></i> FAQ</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-mission">
+        <h4 class="footer-heading">Our Mission</h4>
+        <p class="footer-mission-text">
+          Formulated with 100% plant and mineral-derived ingredients to protect both delicate fabrics and freshwater ecosystems.
+        </p>
+        <div class="footer-badge-list">
+          <span class="f-pill"><i class="fa-solid fa-leaf"></i> 100% Plant-Powered</span>
+          <span class="f-pill"><i class="fa-solid fa-droplet"></i> Zero Phosphates</span>
+          <span class="f-pill"><i class="fa-solid fa-tag"></i> From ₹99</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container footer-bottom-container">
+        <p class="copyright-text">
+          &copy; EcoWash — Natural Organic Detergent. All rights reserved.
+        </p>
+        <button class="back-to-top-btn" id="backToTopBtn" aria-label="Back to top">
+          <i class="fa-solid fa-arrow-up"></i> Top
+        </button>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Main JavaScript File -->
+  <script src="script.js"></script>
+</body>
+</html>
